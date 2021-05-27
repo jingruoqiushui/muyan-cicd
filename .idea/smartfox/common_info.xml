@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SmartFoxWorkToolsProjectState">
+    <option name="branch" value="main" />
+    <option name="gitUrl" value="https://github.com/jingruoqiushui/muyan-cicd.git" />
+    <option name="localBranch" value="main" />
+    <option name="revision" value="dca22ed37c7763f74788f847b4e874ea0d5c5abe" />
+  </component>
+</project>
