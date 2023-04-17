@@ -35,7 +35,6 @@ jobs:
           secho Add other actions to build,
           echo test, and deploy your project.
   production-deploy:
-    if: github.repository == 'octo-org/octo-repo-prod'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
