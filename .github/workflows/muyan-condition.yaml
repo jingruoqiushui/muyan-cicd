@@ -35,6 +35,7 @@ jobs:
           secho Add other actions to build,
           echo test, and deploy your project.
   production-deploy:
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
