@@ -36,6 +36,7 @@ jobs:
           echo test, and deploy your project.
   production-deploy:
     needs: build
+    if: true
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
