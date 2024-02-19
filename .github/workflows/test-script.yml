@@ -15,4 +15,3 @@ jobs:
         env:
           First_Name: Mona
           DAY_OF_WEEK: Monday22
-          MUYAN_KEY: 2222
