@@ -1,13 +1,17 @@
 name: test-script
-on: 
+on: [push]
+
+env:
+  DAY_OF_WEEK: Monday
 
 jobs:
-  job1:
-    # The type of runner that the job will run on
+  greeting_job:
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
+    env:
+      Greeting: Hello
     steps:
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
+      - name: "Say Hello Mona it's Monday"
+        run: echo "$Greeting $First_Name. Today is $DAY_OF_WEEK!"
+        env:
+          First_Name: Mona
+          DAY_OF_WEEK: Monday22
